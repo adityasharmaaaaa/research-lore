@@ -9,7 +9,7 @@ langgraph
 langgraph-checkpoint-sqlite
 langsmith
 pydantic
-pymudpdf
+PyMuPDF
 pypdf
 python-dotenv
 qdrant-client

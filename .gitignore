@@ -1,2 +1,79 @@
-.env
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
 .venv/
+venv/
+env/
+ENV/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers / linters
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# RAG / local data
+data/
+datasets/
+documents/
+chroma/
+chromadb/
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector stores / indexes
+vectorstore/
+vector_store/
+.faiss/
+*.faiss
+*.index
+
+# Model caches / local models
+models/
+.cache/
+huggingface/
+transformers/
+
+# Logs
+*.log
+logs/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# uv
+# Keep uv.lock committed for applications/projects.
